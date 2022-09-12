@@ -1,7 +1,7 @@
-import { Text } from '@chakra-ui/react'
-import type { NextPage } from 'next'
-import Link from 'next/link'
-import styles from '../styles/Home.module.css'
+import { Text } from '@chakra-ui/react';
+import type { NextPage } from 'next';
+import Link from 'next/link';
+import styles from '../styles/Home.module.css';
 
 const Home: NextPage = () => {
   return (
@@ -14,15 +14,14 @@ const Home: NextPage = () => {
           Get started by editing{' '}
           <code className={styles.code}>pages/index.tsx</code>
         </Text>
-        <Link href="/components">
+        <Link href='/components'>
           <Text className={styles.description}>
-            Components{' '}
-            <code className={styles.code}>pages/components.tsx</code>
+            Components <code className={styles.code}>pages/components.tsx</code>
           </Text>
         </Link>
       </main>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

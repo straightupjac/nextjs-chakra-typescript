@@ -1,5 +1,5 @@
-import '../styles/globals.css'
-import type { AppProps } from 'next/app'
+import '../styles/globals.css';
+import type { AppProps } from 'next/app';
 import { ChakraProvider, extendTheme } from '@chakra-ui/react';
 import Footer from '@components/Footer';
 import { Meta } from '@components/Meta';
@@ -34,11 +34,10 @@ const theme = extendTheme({
       },
     },
   },
-})
-
+});
 
 function App({ Component, pageProps }: AppProps) {
-  console.log('env', environment, isProduction)
+  console.log('env', environment, isProduction);
   return (
     <ChakraProvider theme={theme}>
       <Meta />
@@ -46,7 +45,7 @@ function App({ Component, pageProps }: AppProps) {
       <Component {...pageProps} />
       <Footer />
     </ChakraProvider>
-  )
+  );
 }
 
-export default App
+export default App;

@@ -16,7 +16,7 @@ a {
 }
 
 main {
- padding-top: 4rem;
+  padding-top: 4rem;
 }
 
 @media (prefers-color-scheme: dark) {
