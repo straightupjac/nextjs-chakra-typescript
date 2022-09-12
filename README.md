@@ -10,6 +10,8 @@ An opinionated Next.js + Chakra + TypeScript starter packed with:
 - 💅 Prettier — Format your code consistently
 - 📏 ESLint — Find and fix problems in your code, auto sort your imports
 
+Inspired by [`theodorusclarence/ts-nextjs-tailwind-starter`](https://github.com/theodorusclarence/ts-nextjs-tailwind-starter)
+
 ## Getting Started
 
 First, run the development server:
