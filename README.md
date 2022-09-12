@@ -1,8 +1,14 @@
-# Nextjs + Chakra + Typescript Starter
+# Nextjs + Chakra + Typescript Starter ✨
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+An opinionated Next.js + Chakra + TypeScript starter packed with:
 
-This uses [Chakra](https://chakra-ui.com/getting-started/nextjs-guide) as the style framework.
+- ⚡️ Next.js 12
+- ⚛️ React 18
+- ✨ TypeScript
+- 🧘 Chakra -
+- 👷 Github Actions — Lint your code on PR
+- 💅 Prettier — Format your code consistently
+- 📏 ESLint — Find and fix problems in your code, auto sort your imports
 
 ## Getting Started
 

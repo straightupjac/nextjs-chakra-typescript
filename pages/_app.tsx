@@ -1,10 +1,10 @@
-import '../styles/globals.css';
-import type { AppProps } from 'next/app';
 import { ChakraProvider, extendTheme } from '@chakra-ui/react';
 import Footer from '@components/Footer';
 import { Meta } from '@components/Meta';
-import { environment, isProduction } from '@utils/config';
 import { NavBar } from '@components/Navbar';
+import { environment, isProduction } from '@utils/config';
+import type { AppProps } from 'next/app';
+import '../styles/globals.css';
 
 /* Theming */
 const theme = extendTheme({
