@@ -5,7 +5,7 @@ An opinionated Next.js + Chakra + TypeScript starter packed with:
 - ⚡️ Next.js 12
 - ⚛️ React 18
 - ✨ TypeScript
-- 🧘 Chakra -
+- 🧘 Chakra - Ready-to-use beautiful elements powered by [chakra-ui](https://chakra-ui.com/)
 - 👷 Github Actions — Lint your code on PR
 - 💅 Prettier — Format your code consistently
 - 📏 ESLint — Find and fix problems in your code, auto sort your imports
